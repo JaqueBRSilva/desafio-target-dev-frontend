@@ -12,8 +12,9 @@ h2 {
 }
 
 code {
-  font-family: "Fira Code", "Cambria", "Courier", sans-serif;
+  font-family: "Fira Code", "Consolas", "Courier", sans-serif;
   font-size: 1.1rem;
+  font-weight: bold;
   padding: 1rem 0;
   color: #808080;
 }
