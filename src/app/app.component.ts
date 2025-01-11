@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 
 @Component({
@@ -17,11 +17,11 @@ export class AppComponent {
     const INDEX = 13
     let K = 0
 
-    while (this.SUM < INDEX) {
+    while (K < INDEX) {
       K = K + 1
       this.SUM = this.SUM + K
-      console.info(this.SUM)
     }
+    console.warn(this.SUM)
 
     return this.SUM
   }
