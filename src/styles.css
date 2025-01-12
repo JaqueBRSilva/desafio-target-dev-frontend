@@ -4,11 +4,21 @@
   font-family: "Franklin Gothic Book", "Roboto", "Arial", sans-serif;
   font-size: 1rem;
   background: #f2f2f2;
-  padding: 3rem 20rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h2 {
   color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 code {
@@ -17,10 +27,4 @@ code {
   font-weight: bold;
   padding: 1rem 0;
   color: #808080;
-}
-
-@media screen and (max-width: 768px) {
-  :root {
-    padding: 2rem;
-  }  
 }
