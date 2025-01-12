@@ -1,4 +1,8 @@
-.code-area{
+.main-container {
+  margin: 2rem 20rem;
+}
+
+.code-area {
   flex: 1;
   display: flex;
   padding: 0 2rem;
@@ -13,4 +17,10 @@
   padding: 1rem 2rem;
   color: #1a6600;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    margin: 2rem;
+  }
 }
