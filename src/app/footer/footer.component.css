@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #f2f2f2;
+    width: 100%;
+    background: #888888;
+}
+
+.credits {
+    font-size: 1.2rem;
+    flex-direction: row;
+    text-align: center;
+}
+
+.credits-link {
+    font-weight: bold;
+}
+
+.credits-link:hover {
+    color: #444444;
+}
