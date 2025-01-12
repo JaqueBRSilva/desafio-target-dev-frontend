@@ -1,17 +1,17 @@
-import {Component} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from "./header/header.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
-  standalone: true,
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  titleProject = 'Desafio Target - Dev Front-end'
-
-  SUM = 0
+  // TESTE 1
+  sumCount = 0
 
   teste1(): number {
     const INDEX = 13
@@ -19,11 +19,10 @@ export class AppComponent {
 
     while (K < INDEX) {
       K = K + 1
-      this.SUM = this.SUM + K
+      this.sumCount = this.sumCount + K
     }
-    console.warn(this.SUM)
 
-    return this.SUM
+    return this.sumCount
   }
 
 
