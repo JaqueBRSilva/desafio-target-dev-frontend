@@ -1,0 +1,36 @@
+.input-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    place-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-container input {
+    padding: 0.3rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.input-container button {
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.input-container button:hover {
+    background: #cccccc44;
+}
+
+@media screen and (max-width: 380px) {
+    .input-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .input-container button {
+        width: 50vw;
+        align-self: center;
+    }
+}
