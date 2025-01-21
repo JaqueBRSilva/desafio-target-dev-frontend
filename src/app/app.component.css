@@ -2,25 +2,14 @@
   margin: 1rem 20rem;
 }
 
-.code-area {
-  flex: 1;
-  display: flex;
-  padding: 0 2rem;
-  background: #e2e2e2;
-  border-radius: 3px;
-  line-height: 2rem;
-}
-
-.answer {
-  background: #ecffe6;
-  border-radius: 3px;
-  padding: 1rem 2rem;
-  color: #1a6600;
-  font-size: 1.2rem;
-}
-
 @media screen and (max-width: 768px) {
   .main-container {
     margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-container {
+    margin: 1rem 10rem;
   }
 }
