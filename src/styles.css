@@ -52,4 +52,50 @@ code {
   padding: 1rem 2rem;
   color: #1a6600;
   font-size: 1.2rem;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  font-size: 0.9rem;
+}
+
+.input-container input {
+  padding: 0.3rem;
+  width: 7rem;
+  max-width: 10rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.input-container button {
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.input-container button:hover {
+  background: #cccccc44;
+}
+
+@media screen and (max-width: 380px) {
+  .input-container {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  .input-container button {
+      width: 50vw;
+      align-self: center;
+  }
 }
