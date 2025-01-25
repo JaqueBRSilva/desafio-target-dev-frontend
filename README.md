@@ -7,6 +7,19 @@
 
 <br />
 
+<div align="center">
+    <a href="https://desafio-target-sistemas-dev-frontend.netlify.app/" target="_blank" >
+        <img
+            src="./assets/preview-devfrontend.png"
+            alt="Tela principal"
+            width='95%'
+            height='45%'
+        />
+    </a>
+</div>
+
+<br />
+
 ## Principais Comandos do Angular
 
 ### Rodar arquivo localmente
