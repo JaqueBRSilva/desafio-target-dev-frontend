@@ -19,5 +19,6 @@ export class Desafio5Component {
     }
 
     this.reversedWord = invertido.split("")
+    this.wordEnteredByUser = ''
   }
 }
