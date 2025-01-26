@@ -2,10 +2,8 @@
 
 <br />
 
-> Alguns testes passados pela empresa "Target Sistemas" para o cargo de Desenvolvedor Front-end.
-<br/>
-<br/>
-Como não foi exigida nenhuma linguagem ou framework para esse teste, me senti livre para escolher o **Angular CLI**, que inclusive, era uma das linguagens requisitadas na vaga.
+> Alguns testes da empresa "Target Sistemas" para o cargo de Desenvolvedor(a) Front-end. <br />
+> Como não foi exigida nenhuma linguagem ou framework, me senti livre para escolher o **Angular CLI**, que inclusive, era uma das linguagens requisitadas na vaga.
 
 <br />
 
